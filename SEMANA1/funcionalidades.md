@@ -7,7 +7,7 @@
       - Imagen relacionada con el tema.
       - Pequeño resumen del artículo.
       - Opción para acceder al artículo completo.
-      - 
+        
 ### Barra de Navegación:
   - Barra superior que incluya:
       - Logo de la plataforma.
