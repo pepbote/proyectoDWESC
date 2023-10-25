@@ -1,0 +1,22 @@
+#title-container {
+    display: block;
+    background-color: #287EFF;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    padding: 8px;
+}
+
+#nfc-container {
+    margin-top: 50px;
+}
+
+.nfc {
+    height: 300px;
+    width: auto;
+}
