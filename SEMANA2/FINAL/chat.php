@@ -3,35 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="stylechat.css" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>ProNewsHub</title>
 </head>
 <body>
-    <header>
-        <div id="logo-container">
-            <img id="logo" src="img/logo.png" alt="logo">
-        </div>
-        <div id="call-container">
-            <div id="call">
-                <img src="img/icon-phone.svg" alt="call" class="icon">
-                <span class="call-text">CALL NOW</span>
-            </div>
-            <p class="call-text">+34 938873792</p>
-        </div>
-        <div id="user-container">
-            <img src="img/icon-user.svg" alt="usericon" class="usericon">
-        </div>
-        <div class="barra-tareas">
-            <ul class="menu">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CHAT</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a class="search" href="#"><img src="img/icon-search.svg" alt="call" class="searchicon">SEARCH</a></li>
-            </ul>
-        </div>
-    </header>
+    <?php include 'header.html'; ?>
     <section>
         <div class="contenido-seccion">
             <span class="title-text">CHAT</span>
@@ -50,7 +27,7 @@
             </p>
         </div>
     </div>
-    <div id="horizontal"></div>
+    <div class="horizontal"></div>
     <div id="chat-container">
         <div id="chat-box">
             <div class="message-container">
@@ -72,9 +49,9 @@
             </div>
         </div>
     </div>
-    <div id="horizontal" class="margin-top"></div>
+    <div class="horizontal" class="margin-top"></div>
     <div id="button-container">
-        <button id="show-all">Show all</button>
+        <a href="header.html"><button id="show-all">Show all</button></a>
     </div>
 </body>
 </html>
