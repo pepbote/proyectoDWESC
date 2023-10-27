@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>ProNewsHub</title>
 </head>
 <body>
     <header>
+        <div id="logo-container">
+            <img id="logo" src="img/logo.png" alt="logo">
+        </div>
+        <div id="call-container">
+            <div id="call">
+                <img src="img/icon-phone.svg" alt="call" class="icon">
+                <span class="call-text">CALL NOW</span>
+            </div>
+            <p class="call-text">+34 938873792</p>
+        </div>
+        <div id="user-container">
+            <img src="img/icon-user.svg" alt="usericon" class="usericon">
+        </div>
+        <div class="barra-tareas">
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CHAT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a class="search" href="#"><img src="img/icon-search.svg" alt="call" class="searchicon">SEARCH</a></li>
+            </ul>
+        </div>
     </header>
+    <section>
+        <div class="contenido-seccion">
+            <span class="title-text">CHAT</span>
+        </div>
+    </section>
     <div id="title-container">
         <span id="title">HOGWARTS NFT</span>
     </div>
@@ -23,5 +51,30 @@
         </div>
     </div>
     <div id="horizontal"></div>
+    <div id="chat-container">
+        <div id="chat-box">
+            <div class="message-container">
+                <img src="img/perfil2.png" class="perfil">
+                <span class="message">Estoy orgulloso de mi NFT, es una expresión genuina de mí mismo.</span> 
+                <p class="autor">Leo (autor)</p>
+            </div>
+            <div class="message-container">
+                <img src="img/perfil3.png" class="perfil">
+                <span class="message">Este cuadro me conmueve profundamente, su belleza y emotividad son impactantes.</span> 
+                <p class="autor">Mario</p>
+            </div>
+        </div>
+        <div id="chat-send">
+            <img src="img/porfile.png" class="perfil">
+            <div id="form">
+                <input type="text" name="text" id="text" placeholder="Send a message...">
+                <button type="submit" id="submit"><img src="img/send.png" alt="send"></button>
+            </div>
+        </div>
+    </div>
+    <div id="horizontal" class="margin-top"></div>
+    <div id="button-container">
+        <button id="show-all">Show all</button>
+    </div>
 </body>
 </html>
