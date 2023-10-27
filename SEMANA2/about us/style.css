@@ -1,6 +1,61 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.space{
+    max-width: 1000px;
+}
+
+.text{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.img1 {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+
+.img2 {
+    float: left;
+    width: 300px;
+    padding: 15px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.line{
+    border-top: 2px solid black;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+    padding: 15px;
+}
+
+.button {
+    background-color: #2D3648; 
+    color: #FFFFFF; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #999; 
+    color: #fff;
 }
 
 header {
