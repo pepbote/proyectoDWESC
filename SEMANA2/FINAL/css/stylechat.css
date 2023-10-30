@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title-container {
+    display: block;
+    background-color: #287EFF;
+    border-radius: 10px;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: large;
+}
+
+#section-nft {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding-bottom: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#section-nft img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+#vertical {
+    margin: 5%;
+    height: 280px;
+    border-left: 2px solid black;
+}
+
+#descripcion {
+    text-align: justify;
+    margin-right: 10%;
+}
+
+#descripcion {
+    text-align: justify;
+    margin-right: 10%;
+    max-width: 600px;
+}
+
+#descripcion #fecha{
+    font-size: 20px;
+}
+
+#descripcion #texto {
+    font-size: 16px;
+}
+
+.horizontal {
+    border-top: 2px solid black;
+    width: 70%;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+#chat-container {
+    padding: 5px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#chat-send {
+    display: flex;
+    align-items: center;
+    padding-left:15%;
+    margin-bottom: 10px;
+}
+
+.perfil { 
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+#form {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    border: none;
+}
+
+#text:focus {
+    outline: none;
+}
+
+#submit {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#submit img {
+    height: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.message {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#chat-box {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+#container-chatbox {
+    display: block;
+}
+
+.autor {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+#button-container {
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+#show-all {
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
