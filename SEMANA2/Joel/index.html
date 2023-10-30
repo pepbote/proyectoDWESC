@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Mi Página Web</title>
+    <title>ProNewsHub</title>
 </head>
-
 <body>
-    <header>
-        <h1>Mi Página Web</h1>
-    </header>
-
-    <main>
+    <main id="container-main">
         <article class="article">
             <div class="article-content">
-                <h2>HOGWARTS NFT</h2>
-                <img src="img/Imagen1.png" alt="Imagen del Artículo 1">
+                <div class="title-container">
+                    <span class="title">HOGWARTS NFT</span>
+                </div>
+                <img src="img/Imagen1.png" alt="Imagen del Artículo 1" class="nft-img">
             </div>
-            <h4>19/09/2020</h4>
-            <p>Su mirada está fija en el exterior, como si estuviera
+            <p class="fecha">19/09/2020</p>
+            <p class="text">Su mirada está fija en el exterior, como si estuviera
             observando algo con detenimiento. El arte digital del NFT 
             crea un ambiente mágico y enigmático en la habitación, 
             con colores vibrantes y detalles meticulosos. A través de
@@ -32,11 +28,13 @@
 
         <article class="article">
             <div class="article-content">
-                <h2>BILLAR VISTA</h2>
-                <img src="img/Imagen2.png" alt="Imagen del Artículo 2">
+                <div class="title-container">
+                    <span class="title">BILLAR VISTA</span>
+                </div>
+                <img src="img/Imagen2.png" alt="Imagen del Artículo 2" class="nft-img">
             </div>
-            <h4>24/01/2020</h4>
-            <p>El NFT representa una sala de billar con una mesa de color
+            <p class="fecha">24/01/2020</p>
+            <p class="text">El NFT representa una sala de billar con una mesa de color
             rojo vibrante ubicada en el centro del espacio.Las paredes
             están adornadas con cuadros de famosos jugadores de billar
             y trofeos ganados en torneos. Los detalles meticulosos de
@@ -48,11 +46,13 @@
 
         <article class="article">
             <div class="article-content">
-                <h2>AJEDREHUB</h2>
-                <img src="img/Imagen3.png" alt="Imagen del Artículo 3">
+                <div class="title-container">
+                    <span class="title">AJEDREHUB</span>
+                </div>
+                <img src="img/Imagen3.png" alt="Imagen del Artículo 3" class="nft-img">
             </div>
-            <h4>12/05/2020</h4>
-            <p>La imagen del tablero de ajedrez en este NFT muestra
+            <p class="fecha">12/05/2020</p>
+            <p class="text">La imagen del tablero de ajedrez en este NFT muestra
             una composición meticulosamente diseñada, con casillas
             blancas y negras que se alternan perfectamente. Cada
             casilla tiene un aspecto tridimensional, lo que le da
@@ -61,6 +61,12 @@
             <button class="show-more-button">Show More</button>
         </article>
     </main>
+
+    <div id="horizontal"></div>
+
+    <div id="button-container">
+        <button id="show-all">Show all</button>
+    </div>
 
     <footer>
         <div class="footer-left">
@@ -77,5 +83,3 @@
 </body>
 
 </html>
-
-
