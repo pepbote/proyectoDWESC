@@ -136,10 +136,10 @@ footer {
 .footer-right a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px; /* Espaciado entre los enlaces */
+    margin: 0 10px;
 }
 
 .footer-right a:hover {
-    text-decoration: underline; /* Subrayar los enlaces al pasar el cursor por encima */
+    text-decoration: underline;
 }
 
