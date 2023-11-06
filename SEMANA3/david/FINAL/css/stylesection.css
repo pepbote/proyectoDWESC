@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 120px 20px 10px;
+    background: url("../img/header.png") 50% / cover no-repeat;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    position: relative;
+}
+
+.contenido-seccion {
+    text-align: center;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
