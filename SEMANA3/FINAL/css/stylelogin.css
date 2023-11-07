@@ -1,0 +1,58 @@
+#img-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+#img {
+    background-color: #287EFF;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.formulario-login {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0;
+    height: 655px;
+}
+
+#form {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 550px;
+    height: 550px;
+}
+
+.button {
+    padding: 15px 50px;
+    border: none;
+    background-color: #2D3648;
+    color: white;
+    font-size: large;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button a {
+    all: unset;
+}
+
+#form input {
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+}
+
+#register {
+    margin-top: 75px;
+}
