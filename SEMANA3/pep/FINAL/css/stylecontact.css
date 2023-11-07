@@ -1,0 +1,71 @@
+.title-container {
+    display: block;
+    background-color: #287EFF;
+    border-radius: 10px;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+
+#container-contact {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#vertical {
+    margin: 2% 5%;
+    height: 600px;
+    border-left: 2px solid black;
+}
+
+#form-contact {
+    margin-right: 10%;
+}
+
+#form {
+    text-align: left;
+}
+
+.text {
+    border: 2px solid rgba(152, 152, 152, 0.29);
+    border-radius: 5px;
+    height: 30px;
+    width: 260px;
+    margin-top: 5px;
+}
+
+.comment {
+    border: 2px solid rgba(152, 152, 152, 0.29);
+    border-radius: 5px;
+    height: 110px;
+    width: 260px;
+    margin-top: 5px;
+}
+
+#button-container {
+    display: block;
+    border-radius: 10px;
+}
+
+#send {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2D3648;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#map {
+    height: 350px;
+    width: 400px;
+}
